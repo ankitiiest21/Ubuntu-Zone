@@ -1,2 +1,8 @@
 #Update Google Chrome
 sudo apt-get --only-upgrade install google-chrome-stable
+
+#Get Details of applications installed
+dpkg --list
+
+#Uninstall an application
+sudo apt-get --purge remove Application_name
