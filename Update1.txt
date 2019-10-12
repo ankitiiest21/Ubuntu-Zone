@@ -1,4 +1,4 @@
-#Update using Manual Proxy
+#Update using Command line with Manual Proxy
 sudo env http_proxy=http://10.32.0.1:8080 apt-get update
 
 #Update Google Chrome
